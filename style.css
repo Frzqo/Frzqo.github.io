@@ -1,0 +1,163 @@
+body { /* Links to your background image, which you can also replace with a URL. */
+    background-image: url('https://cdn.discordapp.com/attachments/745067592191836285/848811510054649866/93c6aaa4424c468db1c9f7904eb400d8.gif');
+	background-size: cover; /* Image covers page. */
+	background-repeat: no-repeat; /* Image does not repeat. */
+	background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+	background-position: top;
+	text-align: center;
+	color: white; /* Text color. */
+	font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+}
+
+
+
+h1 {
+	font-size: 100px;
+	font-style: italic;
+}
+
+/* This just centers the header container vertically on the page. */
+.container-fluid {
+	height: 200px;
+	width: 100%;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/* Styling for icons. */
+.fa {
+	color: white;
+	margin: 10px 5px;
+	font-size: 3em !important;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+}
+ 
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+}
+ 
+h1 {
+    margin: 60px 0;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+}
+h5 {
+    margin: 60px 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+p {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+ 
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+ 
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+@media (min-aspect-ratio: 16/9) {
+    .bg-video {
+        height: 300%;
+        top: -100%;
+    }
+}
+ 
+@media (max-aspect-ratio: 16/9) {
+    .bg-video {
+        width: 300%;
+        left: -100%;
+    }
+}
+ 
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('poster.jpg') center center / cover no-repeat;
+    }
+ 
+    .bg-video {
+        display: none;
+    }
+}
+.topnav {
+	background-color:white;
+	overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: grey;
+	color: black;
+  }
+
+ 
+  
+  /* Add an active class to highlight the current page */
+ 
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+	display: none;
+  }
+  .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 10%;
+	background-color: white;
+	color: black;
+	text-align: center;
+  }
+  p {
+	  font-size: 15px;
+	  font: verdana;
+  }
+  
