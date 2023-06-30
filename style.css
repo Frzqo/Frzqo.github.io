@@ -1,15 +1,16 @@
-body { /* Links to your background image, which you can also replace with a URL. */
-    background-image: url('https://cdn.discordapp.com/attachments/745067592191836285/848811510054649866/93c6aaa4424c468db1c9f7904eb400d8.gif');
-	background-size: cover; /* Image covers page. */
-	background-repeat: no-repeat; /* Image does not repeat. */
-	background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
-	background-position: top;
-	text-align: center;
-	color: white; /* Text color. */
-	font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
 }
 
-
+button:hover, button:active {
+    background-color: grey;
+    color: white;
+  }
 
 h1 {
 	font-size: 100px;
@@ -42,9 +43,27 @@ h1 {
     box-sizing: border-box;
 }
  
-body {
+body.home {
     margin: 0;
     padding: 0;
+}
+
+body.home { /* Links to your background image, which you can also replace with a URL. */
+    background-image: url('BG.JPG');
+	background-size: cover; /* Image covers page. */
+	background-repeat: no-repeat; /* Image does not repeat. */
+	background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+	background-position: top;
+	text-align: center;
+	color: white; /* Text color. */
+	font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+}
+
+b1 {
+    margin: 5px 0;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
 }
  
 .content {
@@ -55,10 +74,13 @@ body {
 }
  
 h1 {
-    margin: 60px 0;
+    margin: 5px 0;
     padding: 0;
     font-size: 50px;
     text-align: center;
+}
+h3 {
+    margin-bottom: auto;
 }
 h5 {
     margin: 60px 0;
